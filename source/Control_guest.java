@@ -133,7 +133,7 @@ public class Control_guest {
 	public void getStatement() throws Exception
 	{
 		String root="root";
-		String pass="";
+		String pass="513254687";
 		conn=DriverManager.getConnection("jdbc:mysql:///bookBms",root,pass);
 		stmt=conn.createStatement();
 	}
