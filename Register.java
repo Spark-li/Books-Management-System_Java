@@ -293,7 +293,7 @@ public class Register {
 	public void getStatement() throws Exception
 	{
 		String root="root";
-		String pass="513254687";
+		String pass="";//mysql登录密码
 		conn=DriverManager.getConnection("jdbc:mysql:///bookBms",root,pass);
 		stmt=conn.createStatement();
 	}
