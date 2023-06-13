@@ -882,7 +882,7 @@ public class Control_admin {
 	public void getStatement() throws Exception
 	{
 		String root="root";
-		String pass="513254687";
+		String pass="";
 		conn=DriverManager.getConnection("jdbc:mysql:///bookBms",root,pass);
 		stmt=conn.createStatement();
 	}
